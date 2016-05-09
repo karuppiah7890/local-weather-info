@@ -11,7 +11,7 @@
     <title>Show Local Weather</title>
   </head>
 
-  <body>
+  <body class="bg-primary text-white">
 
     <div class="container-fluid">
 
@@ -20,7 +20,12 @@
               <span>Loading <i class="fa fa-spinner fa-spin fa-lg"></i></span><br>
               <span>Please Share Location</span>
             </div>
-            <span id="coords"></span>
+
+            <div id="weather">
+              <p id="region"></p>
+              <span id="temperature"></span>&deg;<button class="btn btn-primary big-font" id="unit"></button><br>
+              <span id="info"></span>
+            </div>
         <div>
     </div>
 

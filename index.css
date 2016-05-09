@@ -3,9 +3,13 @@ body {
 }
 
 .mySpace {
-  margin: 50px 150px 50px 150px;
+  margin: 0px 150px 0px 150px;
 }
 
 .big-font {
-  font-size: 20px;
+  font-size: 40px;
+}
+
+#weather {
+  display:none;
 }

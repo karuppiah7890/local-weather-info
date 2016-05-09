@@ -13,3 +13,8 @@ body {
 #weather {
   display:none;
 }
+
+a , a:focus , a:hover {
+  text-decoration: none !important;
+  color: #FFF;
+}
